@@ -50,17 +50,6 @@
 	</style>
 	<div class="container">
 		<div class='row'>
-			<div class='col-md-12'>
-				<h1 class='text-center'><img src='assets/img/noun_15219.png' heigh="50" width="50" alt='districts'> What's My District?</h1>
-			</div>
-		</div>
-		<div class='row'>
-			<div class='col-md-12'>
-				<h4 class='text-center'>Type in an address or click on the map to look up districts</h4>
-				<a href='alt.html' class='text-center center-block'>See an alternative design</a>
-			</div>
-		</div>
-		<div class='row'>
 			<div class='col-md-12' id='form-row'>
 				<form class="form-inline center-block" id='address-form'>
 				  <div class="form-group">
@@ -75,38 +64,38 @@
 			</div>
 		</div>
 		<div class='row'>
-			<div id='map' class='col-md-12'>
+			<div style="display:none" id='map' class='col-md-12'>
 			</div>
 		</div>
 		<div class='row'>
 			<div class='col-md-3 col-md-offset-1 text-center'>
-				<h2>State</h2>
-				<p class="temp">please enter an address</p>
-				<div class='col-md-offset-2'>
-					<div id='senate-results' class='text-left'></div>
-					<div id='house-results' class='text-left'></div>
-				</div>
+				<!-- <h2>State</h2> -->
+				<!-- <p class="temp">please enter an address</p> -->
+				<!-- <div class='col&#45;md&#45;offset&#45;2'> -->
+				<!-- 	<div id='senate&#45;results' class='text&#45;left'></div> -->
+				<!-- 	<div id='house&#45;results' class='text&#45;left'></div> -->
+				<!-- </div> -->
 			</div>
 			<div class='col-md-4 text-center'>
 				<h2>Local</h2>
 				<p class="temp">please enter an address</p>
 				<div class='col-md-offset-3'>
-					<div id='council-results' class='text-left'></div>
-					<div id='magistrate-results' class='text-left'></div>
-					<div id='voting-results' class='text-left'></div>
-					<div id='neighborhood-assoc-results' class='text-left'></div>
-					<!-- <div id='solid&#45;waste&#45;results' class='text&#45;left'></div> -->
+					<!-- <div id='council&#45;results' class='text&#45;left'></div> -->
+					<!-- <div id='magistrate&#45;results' class='text&#45;left'></div> -->
+					<!-- <div id='voting&#45;results' class='text&#45;left'></div> -->
+					<!-- <div id='neighborhood&#45;assoc&#45;results' class='text&#45;left'></div> -->
+					<div id='solid-waste-results' class='text-left'></div>
 				</div>
 			</div>
 			<div class='col-md-3 text-center'>
-				<h2>Schools</h2>
-				<p class="temp">please enter an address</p>
-					<div class='col-md-offset-2'>
-					<div id='elem-results' class='text-left'></div>
-					<div id='middle-results' class='text-left'></div>
-					<div id='high-results' class='text-left'></div>
-					<div id='school-board-results' class='text-left'></div>
-				</div>
+				<!-- <h2>Schools</h2> -->
+				<!-- <p class="temp">please enter an address</p> -->
+				<!-- 	<div class='col&#45;md&#45;offset&#45;2'> -->
+				<!-- 	<div id='elem&#45;results' class='text&#45;left'></div> -->
+				<!-- 	<div id='middle&#45;results' class='text&#45;left'></div> -->
+				<!-- 	<div id='high&#45;results' class='text&#45;left'></div> -->
+				<!-- 	<div id='school&#45;board&#45;results' class='text&#45;left'></div> -->
+				<!-- </div> -->
 			</div>
 		</div>
 
@@ -224,16 +213,5 @@
 			<li><strong>Solid Waste Pickup:</strong> {{DAY}}</li>
 		</ul>
 	</script>
-
-	<div id="footer">
-		<div class="container">
-			<p>
-				Made by <a href="http://openlexington.org">OpenLexington</a> in 2015 |
-				Data from <a href="http://data.lexingtonky.gov">Lexington's Open Data Catalog</a> |
-				<a href="https://github.com/openlexington/whats_my_district_redux">Fork this project on GitHub</a>
-			</p>
-			<p><a href="http://openlexington.org"><img src="assets/img/OpenLex_sm.png"></a></p>
-		</div>
-	</div>
 </body>
 </html>
